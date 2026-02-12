@@ -51,10 +51,21 @@ python main.py --input inputs/beep.wav --text "Add a massive cathedral reverb" -
 **2. Underwater:**
 > "The sound is coming from deep underwater, muffled and distant."
 
-<video src="https://github.com/maahhi/SemanticAudioFX/raw/main/samples/beep.mp4" controls="controls"></video>
+
 **3. Sci-Fi Robot:**
 > "Transform the voice into a malfunction robot with stuttering and metallic resonance."
-<video src="https://github.com/maahhi/SemanticAudioFX/raw/main/samples/rec_robo.mp4" controls="controls"></video>
+
+
+
+<details>
+  <summary>▶️ Click to play Audio Sample</summary>
+  <video src="https://github.com/user-attachments/assets/f2ab0a84-9cdb-4a2c-82a5-49e67af25cfd" controls></video>
+    
+  <video src="https://github.com/user-attachments/assets/c2554ad7-29b6-484d-82ec-85c41a18aee9" controls></video>
+</details>
+
+
+
 ## Audio Analysis & Dynamic Prompts
 
 The system automatically analyzes the input audio before generating effects. This allows you to write "dynamic" prompts that adapt to the specific characteristics of the audio file.
@@ -66,18 +77,29 @@ The system automatically analyzes the input audio before generating effects. Thi
 - **Content Type**: Heuristic guess (e.g., "Balanced/Tonal" vs "High Noise").
 
 **Example Dynamic Prompts:**
-<video src="https://github.com/maahhi/SemanticAudioFX/blob/main/samples/beep.mp4?raw=true" controls width="400">
-</video>
+
+
+
 1.  **Tempo-Synced Delay:**
     > "Add a delay echo. The delay time should be exactly 60 divided by the detected BPM."
     *   *Result*: If input is 120 BPM, delay will be 0.5s. If 100 BPM, delay will be 0.6s.
-<video src="https://github.com/maahhi/SemanticAudioFX/raw/main/samples/beep_temposync.mp4" controls="controls"></video>
+
+
 2.  **Adaptive EQ:**
     > "If the audio is dark (low centroid), brighten it with a high shelf. If it is already bright, make it warmer."
     *   *Result*: The system checks the `spectral_centroid_brightness` and applies EQ accordingly.
 
 3.  **Smart Normalization:**
     > "Check the loudness. If it is below -20dB, add gain to bring it up to standard levels."
+
+
+<details>
+  <summary>▶️ Click to play Audio Sample</summary>
+  <video src="https://github.com/user-attachments/assets/f2ab0a84-9cdb-4a2c-82a5-49e67af25cfd" controls></video>
+    
+  <video src="https://github.com/user-attachments/assets/b22cdfa2-daa0-4dad-a3ec-d7f7f86f1d3d" controls></video>
+</details>
+
 
 ## Project Structure
 
