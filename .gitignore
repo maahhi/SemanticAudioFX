@@ -4,4 +4,4 @@ __pycache__/
 venv/
 
 .DS_Store
-!samples/*.mp4
+samples/
