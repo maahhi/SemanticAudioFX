@@ -51,10 +51,10 @@ python main.py --input inputs/beep.wav --text "Add a massive cathedral reverb" -
 **2. Underwater:**
 > "The sound is coming from deep underwater, muffled and distant."
 
-
+[🔊 Play Audio (beep.wav)](samples/beep.wav)
 **3. Sci-Fi Robot:**
 > "Transform the voice into a malfunction robot with stuttering and metallic resonance."
-
+[🔊 Play Audio (rec_robo.wav)](samples/rec_robo.wav)
 ## Audio Analysis & Dynamic Prompts
 
 The system automatically analyzes the input audio before generating effects. This allows you to write "dynamic" prompts that adapt to the specific characteristics of the audio file.
@@ -66,11 +66,11 @@ The system automatically analyzes the input audio before generating effects. Thi
 - **Content Type**: Heuristic guess (e.g., "Balanced/Tonal" vs "High Noise").
 
 **Example Dynamic Prompts:**
-
+[🔊 Play Audio (beep.wav)](samples/beep.wav)
 1.  **Tempo-Synced Delay:**
     > "Add a delay echo. The delay time should be exactly 60 divided by the detected BPM."
     *   *Result*: If input is 120 BPM, delay will be 0.5s. If 100 BPM, delay will be 0.6s.
-
+[🔊 Play Audio (beep_temposync.wav)](samples/beep_temposync.wav)
 2.  **Adaptive EQ:**
     > "If the audio is dark (low centroid), brighten it with a high shelf. If it is already bright, make it warmer."
     *   *Result*: The system checks the `spectral_centroid_brightness` and applies EQ accordingly.
