@@ -81,7 +81,7 @@ The system automatically analyzes the input audio before generating effects. Thi
 ## Project Structure
 
 - `inputs/`: Directory for source audio files.
-- `outputs/`: Directory for generated audio files (ignored by git).
+- `outputs/`: Directory for generated audio files.
 - `main.py`: Main entry point for the application.
 - `audio_analyzer.py`: Analyzes input audio features.
 - `audio_processor.py`: Applies effects using Pedalboard.
