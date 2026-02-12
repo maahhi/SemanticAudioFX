@@ -2,5 +2,5 @@
 .env
 __pycache__/
 venv/
-outputs/
+
 .DS_Store
