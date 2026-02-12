@@ -51,6 +51,11 @@ python main.py --input inputs/beep.wav --text "Add a massive cathedral reverb" -
 **2. Underwater:**
 > "The sound is coming from deep underwater, muffled and distant."
 
+<details>
+  <summary>▶️ Click to play Audio Sample</summary>
+  <video src="samples/beep.wav" controls></video>
+</details>
+
 [🔊 Play Audio (beep.wav)](samples/beep.wav)
 **3. Sci-Fi Robot:**
 > "Transform the voice into a malfunction robot with stuttering and metallic resonance."
