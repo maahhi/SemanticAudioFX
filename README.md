@@ -51,10 +51,7 @@ python main.py --input inputs/beep.wav --text "Add a massive cathedral reverb" -
 **2. Underwater:**
 > "The sound is coming from deep underwater, muffled and distant."
 
-<details>
-  <summary>▶️ Click to play Audio Sample</summary>
-  <video src="samples/beep.wav" controls></video>
-</details>
+[![Listen](https://img.shields.io/badge/Listen-Audio_Sample-blue?style=for-the-badge&logo=speaker)](https://github.com/maahhi/SemanticAudioFX/blob/main/samples/beep.wav)
 
 [🔊 Play Audio (beep.wav)](samples/beep.wav)
 **3. Sci-Fi Robot:**
