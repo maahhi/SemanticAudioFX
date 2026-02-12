@@ -66,7 +66,8 @@ The system automatically analyzes the input audio before generating effects. Thi
 - **Content Type**: Heuristic guess (e.g., "Balanced/Tonal" vs "High Noise").
 
 **Example Dynamic Prompts:**
-<video src="https://github.com/maahhi/SemanticAudioFX/raw/main/samples/beep.mp4" controls="controls"></video>
+<video src="https://github.com/maahhi/SemanticAudioFX/blob/main/samples/beep.mp4?raw=true" controls width="400">
+</video>
 1.  **Tempo-Synced Delay:**
     > "Add a delay echo. The delay time should be exactly 60 divided by the detected BPM."
     *   *Result*: If input is 120 BPM, delay will be 0.5s. If 100 BPM, delay will be 0.6s.
